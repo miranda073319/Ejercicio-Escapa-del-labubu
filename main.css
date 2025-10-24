@@ -95,3 +95,11 @@ h1 {
     color: black;
     font-weight: bold; 
 }
+
+#controls-info {
+    color: aquamarine;  /* O 'yellow', el color que prefieras */
+    text-align: center;
+    font-size: 0.9em;   /* Opcional: hacerlo un poco más pequeño */
+    margin-top: -5px;   /* Opcional: acercarlo al título */
+    margin-bottom: 15px; /* Para separarlo de los sliders */
+}
