@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('resources/background.png');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
+h1 {
+    color:#eecd5e;
+}
+
+
+#game-area {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    border: 2px solid #000;
+    background-image: url('resources/backrooms.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #f0f0f0; }
+
+.character {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+#player {
+    background-color: rgb(82, 70, 0);
+    background-image: url('resources/labubu.png'); 
+    background-size: cover;
+}
+
+#labubu {
+    background-color: red;
+    background-image: url('resources/evil_labubu.png'); 
+    background-size: cover;
+}
+
+#start-game-btn {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    background-color: #420000;
+    color: white;
+    border: #590202;
+    border-radius: 5px;
+}
+
+#settings-panel {
+    width: 500px;
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid #420000;
+    background-color: #022227;
+    box-sizing: border-box; 
+}
+
+#settings-panel h2 {
+    margin-top: 0;
+    text-align: center;
+    color:#eecd5e
+}
+
+#settings-panel div {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#settings-panel label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #b4710c
+}
+
+#settings-panel input[type="range"] {
+    flex-grow: 1; 
+}
+
+#settings-panel button {
+    padding: 5px 10px;
+    cursor: pointer;
+
+}
+
+#disable-bg-btn {
+    background-color: #1e4349;
+    color: black;
+    font-weight: bold; 
+}

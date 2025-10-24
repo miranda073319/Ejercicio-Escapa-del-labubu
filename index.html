@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Escapa de Labubu</title>
+</head>
+<body>
+    <h1>ESCAPE THE LABUBU</h1>
+
+    <button id="start-game-btn">Iniciar Juego</button>
+
+    <div id="game-area">
+        <div id="player" class="character"></div>
+        <div id="labubu" class="character"></div>
+    </div>
+
+    <div id="settings-panel">
+        <h2>Configuración</h2>
+        
+        <div>
+            <label for="player-speed">Velocidad Jugador:</label>
+            <input type="range" id="player-speed" min="10" max="80" value="40">
+        </div>
+
+        <div>
+            <label for="labubu-speed">Velocidad Labubu:</label>
+            <input type="range" id="labubu-speed" min="1" max="10" value="2">
+        </div>
+
+        <div>
+            <label for="music-toggle">Habilitar musica:</label>
+            <input type="checkbox" id="music-toggle">
+        </div>
+        
+        <div>
+             <button id="disable-bg-btn">Deshabilitar Fondo</button>
+        </div>
+    </div>
+
+    <audio id="game-music" src="resources/labubu_dubai.mp3" loop></audio>
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
