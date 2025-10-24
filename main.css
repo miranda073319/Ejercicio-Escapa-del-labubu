@@ -97,9 +97,9 @@ h1 {
 }
 
 #controls-info {
-    color: aquamarine;  /* O 'yellow', el color que prefieras */
+    color: aquamarine;  
     text-align: center;
-    font-size: 0.9em;   /* Opcional: hacerlo un poco más pequeño */
-    margin-top: -5px;   /* Opcional: acercarlo al título */
-    margin-bottom: 15px; /* Para separarlo de los sliders */
+    font-size: 0.9em;  
+    margin-top: -5px;
+    margin-bottom: 15px; 
 }
